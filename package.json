@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "My own personal website displaying all the crafts and things I have created as a small business owner.",
   "main": "server.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -29,9 +26,9 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.12.5",
+    "node": "^16.1.0",
     "npm": "^7.11.2",
     "react-bootstrap": "^1.5.2",
-    "react-router-dom": "^5.2.0",
-    "update": "^0.4.2"
+    "react-router-dom": "^5.2.0"
   }
 }
