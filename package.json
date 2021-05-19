@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) # Panda Jams Crafts",
   "main": "server.js",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
