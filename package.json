@@ -1,7 +1,7 @@
 {
   "name": "pandajamscrafts",
   "version": "1.0.0",
-  "description": "My own personal website displaying all the crafts and things I have created as a small business owner.",
+  "description": "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) # Panda Jams Crafts",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -13,33 +13,24 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^6.0.0",
-    "nodemon": "^2.0.7"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "eslint": "^7.11.0",
-    "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "mongoose": "^5.12.5",
-    "node": "^16.1.0",
-    "npm": "^7.11.2",
-    "react-bootstrap": "^1.5.2",
-    "react-router-dom": "^5.2.0",
-    "scripts": "^0.1.0",
-    "update": "^0.7.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jkaganovsky/PandaJamsCrafts.git"
   },
   "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^1.18.7"
+  },
   "bugs": {
     "url": "https://github.com/jkaganovsky/PandaJamsCrafts/issues"
   },
-  "homepage": "https://github.com/jkaganovsky/PandaJamsCrafts#readme"
+  "homepage": "https://github.com/jkaganovsky/PandaJamsCrafts#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.12.10"
+  }
 }
