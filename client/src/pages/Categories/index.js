@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import yarn from "./Yarn.jpg";
 import threeD from "./ThreeD.jpg";
 import fabric from "./Fabric.jpg";
@@ -7,19 +7,38 @@ import fabric from "./Fabric.jpg";
 function Categories() {
   return (
     <Container>
-      <Card>
-        <Row>
-          <Col xs={6} md={4}>
-            <Image src={yarn} thumbnail />
-          </Col>
-          <Col xs={6} md={4}>
-            <Image src={threeD} thumbnail />
-          </Col>
-          <Col xs={6} md={4}>
-            <Image src={fabric} thumbnail />
-          </Col>
-        </Row>
-      </Card>
+      <Row class="background">
+        <Col xs={6} md={4}>
+          <Button>
+            <Image
+              class="imageBtn"
+              src={yarn}
+              fluid
+              thumbnail
+            />
+          </Button>
+        </Col>
+        <Col xs={6} md={4}>
+          <Button>
+            <Image
+              class="imageBtn"
+              src={threeD}
+              fluid
+              thumbnail
+            />
+          </Button>
+        </Col>
+        <Col xs={6} md={4}>
+          <Button>
+            <Image
+              class="imageBtn"
+              src={fabric}
+              fluid
+              thumbnail
+            />
+            </Button>
+        </Col>
+      </Row>
     </Container>
   )
 }
