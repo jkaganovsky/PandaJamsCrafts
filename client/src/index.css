@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4 {
+  font-family: 'Euphoria Script', cursive;
+}
+
+.footer {
+  font-family: 'DM Serif Text', serif;
+  color: black;
+}
+
+.background {
+  background-color: #50B4EC;
+}
+
+.imageBtn {
+  width: 171px;
+  height: 180px;
+}
+
+.nav {
+  font-family: 'Fontdiner Swanky', cursive;
+  color: black;
+}
+
