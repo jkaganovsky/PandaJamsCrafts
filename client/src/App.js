@@ -1,20 +1,27 @@
-import { Container } from "react-bootstrap";
-import { BrowserRouter as Router } from "react-router-dom";
-import Nav from "./pages/Nav";
-import Categories from "./pages/Categories";
-import Footer from "./pages/Footer";
-import Logo from "./pages/Jumbotron";
+import Footer from "./components/Footer";
 
 function App() {
+  const display = () => {
+    // const route = window.location.pathname
+    //   if(route.includes("/about")){
+    //     return <About />
+    //   } else if(route.includes("/threed")){
+    //     return <ThreeD />
+    //   } else if(route.includes("/fabrics")){
+    //     return <Fabrics />
+    //   } else if(route.includes("/yarn")){
+    //     return <Yarn />
+    //   } else if(route.includes("/myubam")){
+    //     return <MyUbam />
+    //   } else if(route.includes("/contact")){
+    //     return <Contact />
+    //   }
+  }
   return (
-    <Router>
-      <Container>
-        <Logo />
-        <Nav />
-        <Categories />
-        <Footer />
-      </Container>
-    </Router>
+    <>
+      {display()}
+      <Footer year={new Date().getFullYear()} />
+    </>
   );
 }
 

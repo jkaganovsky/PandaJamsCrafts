@@ -1,11 +1,12 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
+import { Nav } from 'react-bootstrap';
+import About from './AboutMe';
 
 function navBar() {
   return (
     <Nav className="justify-content-center nav">
       <Nav.Item>
-        <Nav.Link eventKey="AboutMe">About Me</Nav.Link>
+        <Nav.Link eventKey="About">About Me</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="Usborne">Usborne Books & More</Nav.Link>

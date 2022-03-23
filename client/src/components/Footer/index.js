@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-function Footer() {
+function Footer(props) {
   return(
     <Card className="text-center">
       <Card.Footer className="text-muted footer">
-        Copyright © 2021 Jailanie Kaganovsky
+        Copyright © {props.year} by Jailanie Kaganovsky
       </Card.Footer>
     </Card>
   )

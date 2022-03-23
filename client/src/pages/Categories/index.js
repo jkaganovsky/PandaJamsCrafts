@@ -1,13 +1,13 @@
 import React from "react";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Card, Button, Col, Container, Image } from "react-bootstrap";
 import yarn from "./Yarn.jpg";
 import threeD from "./ThreeD.jpg";
 import fabric from "./Fabric.jpg";
 
 function Categories() {
   return (
-    <Container>
-      <Row class="background">
+    <Container class="background">
+      <Card>
         <Col xs={6} md={4}>
           <Button>
             <Image
@@ -38,7 +38,7 @@ function Categories() {
             />
             </Button>
         </Col>
-      </Row>
+      </Card>
     </Container>
   )
 }
